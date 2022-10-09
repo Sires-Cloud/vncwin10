@@ -16,4 +16,3 @@ echo "Note: Use Right-Click Or Ctrl+C To Copy"
 echo "Please Keep Colab Tab Open, Maximum Time 12h"
 echo Script by fb.com/thuong.hai.581
 sudo qemu-system-x86_64 -vnc :0 -hda lite10.qcow2  -smp cores=8  -m 10G -machine usb=on -device usb-tablet > /dev/null 2>&1
-sleep 43200
